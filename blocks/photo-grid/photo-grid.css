@@ -1,0 +1,9 @@
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style-type: none;
+  max-width: calc(100% - 96px);
+  margin: 92px auto 0 auto;
+  padding-inline: 0;
+}

@@ -1,0 +1,12 @@
+@import url('../place/__image/place__image.css');
+@import url('../place/__paragraph/place__paragraph.css');
+@import url('../place/__title/place__title.css');
+@import url('../place/__website/place__wesite.css');
+.place {
+  max-width: 984px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 152px 48px 460px;
+  grid-template-columns: 1fr 40px 1fr;
+  grid-template-areas: "title sp link" "sp sp sp" "pict sp desc";
+}

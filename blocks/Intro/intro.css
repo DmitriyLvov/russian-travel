@@ -1,0 +1,9 @@
+@import url('../Intro/__title/intro__title.css');
+@import url('../Intro/__text/intro__text.css');
+@import url('../Intro/__list/intro__list.css');
+@import url('../Intro/__list/_style/intro__list_style_bold.css');
+.intro {
+  max-width: 690px;
+  margin-left: calc((100% - 690px)/4);
+  padding-top: 92px;
+}
