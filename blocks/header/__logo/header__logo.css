@@ -1,3 +1,5 @@
 .header__logo {
   line-height: 1;
+  min-width: 176px;
+  min-height: 52px;
 }
