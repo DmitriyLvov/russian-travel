@@ -1,0 +1,19 @@
+@keyframes hovered {
+  from {
+    background-color: rgba(42, 44, 47, 0.3);
+  }
+  to {
+    background-color: rgba(42, 44, 47, 0.9);
+  }
+}
+
+.baikal__overlay {
+  background-color: rgba(42, 44, 47, 0.3);
+  min-height: 740px;
+  position: relative;
+  z-index: 1;
+}
+
+.baikal__overlay:hover {
+  animation: hovered 0.5s linear forwards;
+}

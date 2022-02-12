@@ -1,0 +1,10 @@
+@import url('../footer/__copyright/footer__copyright.css');
+@import url('../footer/__navigation/footer__navigation.css');
+@import url('../footer/__link/footer__link.css');
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 96px);
+  margin: 0 auto;
+  padding: 92px 0 18px 0;
+}

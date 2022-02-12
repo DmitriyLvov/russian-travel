@@ -1,3 +1,5 @@
 .place__paragraph {
-  grid-area: desc;
+  margin-block: 0;
+  margin-inline: 0;
+  font: 400 18px/1.63 'Inter';
 }

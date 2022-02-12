@@ -4,5 +4,9 @@
   margin-block: 0;
   margin-inline: 0;
   padding-inline: 0;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin: 0 auto;
+  padding-top: 87px;
 }

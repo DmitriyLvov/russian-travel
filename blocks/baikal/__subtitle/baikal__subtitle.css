@@ -1,0 +1,12 @@
+.baikal__subtitle {
+  position: absolute;
+  z-index: 2;
+  max-width: 360px;
+  text-align: center;
+  top: 429px;
+  left: calc((100% - 360px)/2);
+  font: 400 18px/22px 'Inter';
+  margin-block: 0;
+  margin-inline: 0;
+  color: white;
+}
