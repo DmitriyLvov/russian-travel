@@ -6,6 +6,7 @@
   max-width: 690px;
   margin-left: calc((100% - 690px)/4);
   padding-top: 91px;
+  padding-left: 1px;
 }
 
 @media screen and (max-width:1024px) {

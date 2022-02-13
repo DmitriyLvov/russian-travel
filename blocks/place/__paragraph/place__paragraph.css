@@ -3,3 +3,9 @@
   margin-inline: 0;
   font: 400 18px/1.606 'Inter';
 }
+
+@media screen and (max-width:1024px) {
+  .place__paragraph {
+    padding-right: 16px;
+  }
+}
