@@ -5,7 +5,19 @@
   max-width: 1184px;
   min-height: 740px;
   margin: 0 auto;
+  background: border-box;
   background-image: url(../../images/baikal__background.jpg);
   position: relative;
   margin-top: 92px;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width:1024px) {
+  .baikal {
+    width: 100%;
+    min-height: auto;
+    max-height: 640px;
+    margin-top: 94px;
+  }
 }

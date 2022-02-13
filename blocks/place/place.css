@@ -14,3 +14,11 @@
   grid-template-areas: "title . link" ". . ." "pict . desc";
   box-sizing: border-box;
 }
+
+@media screen and (max-width:1024px) {
+  .place {
+    max-width: 928px;
+    grid-template-rows: fit-content(153px) 44px 440px;
+    grid-template-columns: 440px 32px 456px;
+  }
+}

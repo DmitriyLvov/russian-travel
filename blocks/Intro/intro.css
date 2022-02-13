@@ -7,3 +7,9 @@
   margin-left: calc((100% - 690px)/4);
   padding-top: 91px;
 }
+
+@media screen and (max-width:1024px) {
+  .intro {
+    margin-left: 48px;
+  }
+}

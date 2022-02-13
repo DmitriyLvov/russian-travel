@@ -10,3 +10,9 @@
   margin-block: 0;
   color: white;
 }
+
+@media screen and (max-width:1024px) {
+  .baikal__title {
+    top: 196px;
+  }
+}

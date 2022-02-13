@@ -10,3 +10,10 @@
   margin: 0 auto;
   padding-top: 87px;
 }
+
+@media screen and (max-width:1024px) {
+  .places {
+    padding-top: 91px;
+    gap: 81px;
+  }
+}

@@ -14,9 +14,3 @@
     padding: 22px 16px 0px 16px;
   }
 }
-
-@media screen and (max-width:320px) {
-  .header {
-    padding: 22px 16px 0px 16px;
-  }
-}
