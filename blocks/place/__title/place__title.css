@@ -1,6 +1,7 @@
 .place__title {
   grid-area: title;
-  font: 900 72px/76px 'Inter';
+  font: 900 72px/78px 'Inter';
   margin-block: 0;
   align-self: end;
+  letter-spacing: 0.5px;
 }

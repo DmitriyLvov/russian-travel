@@ -1,6 +1,7 @@
 .place__description {
   grid-area: desc;
   display: flex;
-  gap: 25px;
+  gap: 27px;
   flex-direction: column;
+  padding: 3px 3px 0 0;
 }

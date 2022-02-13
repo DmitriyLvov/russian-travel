@@ -9,7 +9,7 @@
   max-width: 984px;
   margin: 0 auto;
   display: grid;
-  grid-template-rows: fit-content(153px) 48px 461px;
+  grid-template-rows: fit-content(153px) 44px 461px;
   grid-template-columns: 460px 39px 487px;
   grid-template-areas: "title . link" ". . ." "pict . desc";
   box-sizing: border-box;
