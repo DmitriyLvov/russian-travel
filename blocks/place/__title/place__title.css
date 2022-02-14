@@ -5,3 +5,19 @@
   align-self: end;
   letter-spacing: 0.5px;
 }
+
+@media screen and (max-width:945px) {
+  .place__title {
+    font: 900 42px/46px 'Inter';
+    max-width: 340px;
+    padding-right: 4px;
+  }
+}
+
+@media screen and (max-width:680px) {
+  .place__title {
+    font: 900 32px/35px 'Inter';
+    width: calc(100% - 32px);
+    margin: 0 auto;
+  }
+}

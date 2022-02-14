@@ -1,5 +1,11 @@
 .intro__text {
-  font: 400 16px/1.63 'Inter', 'sans-serif';
+  font: 400 16px/1.63 'Inter';
   margin-block: 0;
   padding-top: 39px;
+}
+
+@media screen and (max-width:700px) {
+  .intro__text {
+    width: calc(100% - 32px);
+  }
 }

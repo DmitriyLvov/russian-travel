@@ -1,7 +1,7 @@
 .baikal__title {
   max-width: 560px;
   text-align: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   position: absolute;
   left: calc((100% - 560px)/2);
   top: 245px;
@@ -14,5 +14,21 @@
 @media screen and (max-width:1024px) {
   .baikal__title {
     top: 196px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .baikal__title {
+    top: 108px;
+  }
+}
+
+@media screen and (max-width:530px) {
+  .baikal__title {
+    font: 900 32px/35px 'Inter';
+    top: 33px;
+    left: calc((100% - 240px)/2);
+    text-align: center;
+    max-width: 240px;
   }
 }

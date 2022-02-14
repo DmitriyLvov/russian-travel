@@ -7,13 +7,31 @@
   column-gap: 16px;
   list-style-type: none;
   max-width: calc(100% - 96px);
-  margin: 91px auto 0 auto;
   padding-inline: 0;
+  margin-block: 0;
+  margin: 91px auto 0 auto;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1299px) {
   .photo-grid {
     row-gap: 14px;
     column-gap: 14px;
+  }
+}
+
+@media screen and (max-width:1040px) {
+  .photo-grid {
+    row-gap: 14px;
+    column-gap: 14px;
+    max-width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width:782px) {
+  .photo-grid {
+    max-width: calc(100% - 32px);
+    column-gap: 0px;
+    row-gap: 12px;
+    margin: 64px auto 0 auto;
   }
 }

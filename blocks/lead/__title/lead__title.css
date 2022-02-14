@@ -1,7 +1,13 @@
 .lead__title {
-  font: 900 96px/100px 'Inter', 'sans-serif';
+  font: 900 96px/100px 'Inter';
   max-width: 720px;
   margin: 0 auto;
   margin-block: 0;
   text-align: center;
+}
+
+@media screen and (max-width:700px) {
+  .lead__title {
+    font: 900 40px/44px 'Inter';
+  }
 }

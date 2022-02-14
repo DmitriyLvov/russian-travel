@@ -21,3 +21,18 @@
     margin-top: 94px;
   }
 }
+
+@media screen and (max-width:768px) {
+  .baikal {
+    width: 100%;
+    min-height: auto;
+    /* max-height: 480px; */
+    margin-top: 94px;
+  }
+}
+
+@media screen and (max-width:530px) {
+  .baikal {
+    margin-top: 66px;
+  }
+}
