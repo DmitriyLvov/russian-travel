@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width:945px) {
+@media screen and (max-width:970px) {
   .place {
     max-width: 720px;
     grid-template-rows: fit-content(92px) 48px fit-content(600px);

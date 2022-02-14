@@ -12,13 +12,15 @@
   height: calc(100vw*0.625);
   position: relative;
   z-index: 1;
+  max-height: 740px;
 }
 
 .baikal__overlay:hover {
   animation: hovered 0.5s linear forwards;
 }
 
-@media screen and (max-width:1024px) {
+
+/* @media screen and (max-width:1024px) {
   .baikal__overlay {
     min-height: 640px;
   }
@@ -34,4 +36,4 @@
   .baikal__overlay {
     min-height: 200px;
   }
-}
+} */

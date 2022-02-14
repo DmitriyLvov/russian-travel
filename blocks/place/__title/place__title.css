@@ -6,7 +6,7 @@
   letter-spacing: 0.5px;
 }
 
-@media screen and (max-width:945px) {
+@media screen and (max-width:970px) {
   .place__title {
     font: 900 42px/46px 'Inter';
     max-width: 340px;

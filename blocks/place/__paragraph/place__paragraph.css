@@ -4,7 +4,7 @@
   font: 400 18px/1.606 'Inter';
 }
 
-@media screen and (max-width:945px) {
+@media screen and (max-width:970px) {
   .place__paragraph {
     font: 400 16px/26px 'Inter';
   }
