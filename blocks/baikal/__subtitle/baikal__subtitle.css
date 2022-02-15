@@ -1,0 +1,32 @@
+.baikal__subtitle {
+  position: absolute;
+  z-index: 2;
+  max-width: 360px;
+  text-align: center;
+  top: 430px;
+  left: calc((100% - 360px)/2);
+  font: 400 18px/22px 'Inter';
+  margin-block: 0;
+  margin-inline: 0;
+  color: white;
+}
+
+@media screen and (max-width:1024px) {
+  .baikal__subtitle {
+    top: 381px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .baikal__subtitle {
+    top: 293px;
+  }
+}
+
+@media screen and (max-width:530px) {
+  .baikal__subtitle {
+    top: 119px;
+    left: calc((100% - 288px)/2);
+    font: 400 14px/16px 'Inter';
+  }
+}

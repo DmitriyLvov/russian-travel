@@ -1,0 +1,10 @@
+.footer__link {
+  color: #fff;
+  font: 400 16px/18px 'Inter';
+}
+
+@media screen and (max-width:716px) {
+  .footer__link {
+    font: 400 24px/24px 'Inter';
+  }
+}

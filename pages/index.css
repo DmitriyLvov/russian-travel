@@ -1,0 +1,16 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/root/root.css');
+@import url('../vendor/fonts/fonts.css');
+
+/*Импорт блоков*/
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__lang-link/_selected/header__lang-link_selected_on.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/Intro/intro.css');
+@import url('../blocks/Intro/__list-item/_style/intro__list-item_style_bold.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/place/place.css');
+@import url('../blocks/baikal/baikal.css');
+@import url('../blocks/footer/footer.css');
