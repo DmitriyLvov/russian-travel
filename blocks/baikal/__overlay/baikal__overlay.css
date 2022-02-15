@@ -9,10 +9,10 @@
 
 .baikal__overlay {
   background-color: rgba(42, 44, 47, 0.3);
-  height: calc(100vw*0.625);
   position: relative;
   z-index: 1;
   max-height: 740px;
+  height: calc(100vw*0.625);
 }
 
 .baikal__overlay:hover {

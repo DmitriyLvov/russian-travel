@@ -3,7 +3,6 @@
 @import url('../baikal/__subtitle/baikal__subtitle.css');
 .baikal {
   max-width: 1184px;
-  min-height: 740px;
   margin: 0 auto;
   background: border-box;
   background-image: url(../../images/baikal__background.jpg);
@@ -11,13 +10,15 @@
   margin-top: 95px;
   background-position: center;
   background-size: cover;
+  max-height: 740px;
+  height: calc(100vw*0.625);
 }
 
 @media screen and (max-width:1024px) {
   .baikal {
     width: 100%;
-    min-height: auto;
-    max-height: 640px;
+    /* min-height: auto;
+    max-height: 640px; */
     margin-top: 94px;
   }
 }
@@ -25,7 +26,7 @@
 @media screen and (max-width:768px) {
   .baikal {
     width: 100%;
-    min-height: auto;
+    /* min-height: auto; */
     /* max-height: 480px; */
     margin-top: 94px;
   }
