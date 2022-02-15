@@ -1,6 +1,3 @@
-@import url('../header/__lang-link/header__lang-link.css');
-@import url('../header/__lang-panel/header__lang-panel.css');
-@import url('../header/__logo/header__logo.css');
 .header {
   margin: 0 auto;
   padding: 28px 48px 0px 48px;

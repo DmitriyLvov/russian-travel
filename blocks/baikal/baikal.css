@@ -1,6 +1,3 @@
-@import url('../baikal/__overlay/baikal__overlay.css');
-@import url('../baikal/__title/baikal__title.css');
-@import url('../baikal/__subtitle/baikal__subtitle.css');
 .baikal {
   max-width: 1184px;
   margin: 0 auto;
