@@ -1,4 +1,4 @@
-.baikal__subtitle {
+.cover__subtitle {
   position: absolute;
   z-index: 2;
   max-width: 360px;
@@ -12,19 +12,19 @@
 }
 
 @media screen and (max-width:1024px) {
-  .baikal__subtitle {
+  .cover__subtitle {
     top: 381px;
   }
 }
 
 @media screen and (max-width:768px) {
-  .baikal__subtitle {
+  .cover__subtitle {
     top: 293px;
   }
 }
 
 @media screen and (max-width:530px) {
-  .baikal__subtitle {
+  .cover__subtitle {
     top: 119px;
     left: calc((100% - 288px)/2);
     font: 400 14px/16px 'Inter';

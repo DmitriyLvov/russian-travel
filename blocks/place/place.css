@@ -18,7 +18,7 @@
 
 @media screen and (max-width:970px) {
   .place {
-    max-width: 720px;
+    max-width: calc(100vw - 48px);
     grid-template-rows: fit-content(92px) 48px fit-content(600px);
     grid-template-columns: 340px 28px fit-content(600px);
   }
@@ -26,6 +26,7 @@
 
 @media screen and (max-width:680px) {
   .place {
+    max-width: 100vw;
     width: 100%;
     display: flex;
     flex-direction: column;

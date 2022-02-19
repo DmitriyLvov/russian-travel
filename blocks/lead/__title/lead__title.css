@@ -9,5 +9,6 @@
 @media screen and (max-width:700px) {
   .lead__title {
     font: 900 40px/44px 'Inter';
+    padding: 0 16px;
   }
 }

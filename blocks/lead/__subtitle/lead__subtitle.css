@@ -10,7 +10,7 @@
 
 @media screen and (max-width:700px) {
   .lead__subtitile {
-    font: 900 16px/20px 'Inter';
-    padding: 16px 0 0 0;
+    font: 400 16px/20px 'Inter';
+    padding: 16px 16px 0 16px;
   }
 }

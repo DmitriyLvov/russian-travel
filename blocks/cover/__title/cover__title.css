@@ -1,4 +1,4 @@
-.baikal__title {
+.cover__title {
   max-width: 560px;
   text-align: center;
   /* margin: 0 auto; */
@@ -12,19 +12,19 @@
 }
 
 @media screen and (max-width:1024px) {
-  .baikal__title {
+  .cover__title {
     top: 196px;
   }
 }
 
 @media screen and (max-width:768px) {
-  .baikal__title {
+  .cover__title {
     top: 108px;
   }
 }
 
 @media screen and (max-width:530px) {
-  .baikal__title {
+  .cover__title {
     font: 900 32px/35px 'Inter';
     top: 33px;
     left: calc((100% - 240px)/2);
