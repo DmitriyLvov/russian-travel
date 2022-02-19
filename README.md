@@ -8,7 +8,8 @@
 Работа будет использоваться в составе портфолио без дальнейшего развития.
 
 **GitHubPages**
-*[Ссылка на сайт] (https://dmitriylvov.github.io/russian-travel/index.html)
+
+*[Ссылка на сайт](https://dmitriylvov.github.io/russian-travel/index.html)
 
 **Figma**
 
